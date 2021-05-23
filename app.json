@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FlyView",
+    "slug": "A",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "landscape",
+    "version": "1.0.0",
+    "icon": "./assets/splash-icon.png",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["CAMERA","CAMERA_ROLL","MEDIA_LIBRARY"]
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    }
+  }
+}
